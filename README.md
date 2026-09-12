@@ -1,82 +1,56 @@
-# Python AI Engineering Portfolio
+# Python Fundamentals
 
-A practical, implementation-focused Python learning repository.
+This module contains practical examples of Python's core data types
+and collection structures.
 
-This repository demonstrates my progression from Python fundamentals
-to AI Engineering through executable examples, practice exercises,
-documentation, testing, and end-to-end projects.
+## Topics Covered
 
-## Learning Roadmap
-
-### Python Fundamentals
-
-- [ ] Variables and data types
-- [ ] Strings
-- [ ] Lists
-- [ ] Tuples
-- [ ] Sets
-- [ ] Dictionaries
-- [ ] Operators
-
-### Python Programming
-
-- [ ] Control flow
-- [ ] Functions
-- [ ] Comprehensions
-- [ ] Collections and data processing
-- [ ] Exception handling
-- [ ] Modules and packages
-- [ ] File handling
-
-### Python Engineering
-
-- [ ] Object-oriented programming
-- [ ] Iterators and generators
-- [ ] Decorators
-- [ ] Context managers
-- [ ] Type hints
-- [ ] Dataclasses
-- [ ] Pydantic
-- [ ] Testing
-
-### AI Engineering
-
-- [ ] NumPy
-- [ ] Pandas
-- [ ] FastAPI
-- [ ] PyTorch
-- [ ] Transformers
-- [ ] LangChain
-- [ ] LangGraph
-
-## Repository Structure
-
-Each folder represents a Python concept or AI Engineering technology.
-
-Every topic will contain:
-
-- Concept explanation
-- Syntax examples
-- Practical examples
-- Practice exercises
-- Answers
-- Tests where applicable
-
-## Current Project
-
-The first practical project is an AI document-processing utility.
-
-It will progressively demonstrate:
-
+- Variables
+- Assignment
+- Integers
+- Floats
+- Booleans
+- Strings
 - Lists
+- Tuples
+- Sets
 - Dictionaries
-- Loops
-- Conditions
-- Functions
-- List comprehensions
-- String processing
-- Type hints
-- Pydantic
-- FastAPI
-- Embeddings
-- Retrieval-Augmented Generation
+- Indexing
+- Slicing
+- Basic string methods
+- f-strings
+- Dictionary iteration
+
+## Java Comparison
+
+| Python | Java Equivalent |
+|---|---|
+| `list` | `ArrayList` |
+| `tuple` | No direct equivalent |
+| `set` | `HashSet` |
+| `dict` | `HashMap` |
+| `None` | `null` |
+| `bool` | `boolean` |
+
+## AI Engineering Connection
+
+These concepts are used constantly when processing:
+
+- Documents
+- API responses
+- Model outputs
+- Metadata
+- Configuration
+- User input
+- Search results
+
+## Run Examples
+
+```bash
+python 01_python_fundamentals/variables_and_data_types.py
+python 01_python_fundamentals/strings.py
+python 01_python_fundamentals/lists.py
+python 01_python_fundamentals/tuples.py
+python 01_python_fundamentals/sets.py
+python 01_python_fundamentals/dictionaries.py
+python 01_python_fundamentals/exercises.py
